@@ -11,7 +11,7 @@ export const useRightSidebar = () => {
 };
 
 export const RightSidebarProvider = ({ children }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggle = () => setIsOpen(!isOpen);
   const open = () => setIsOpen(true);
